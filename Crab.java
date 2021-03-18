@@ -9,8 +9,7 @@ public class Crab extends Actor
     {
         move();
         lookforWorm();
-        randomTurn();
-        Turnatedge();
+        checkKeyDown();
     }
     public void move()
     {
@@ -27,25 +26,16 @@ public class Crab extends Actor
         {
             removeTouching(Worm.class);
         }
-    }
-    /*
-     * make da crab turn randomly left or right between 0 and 45 degrees.
-     */
-    public void randomTurn()
-    {
-        if (Greenfoot.getRandomNumber(100)<10)
-        {
-            turn(Greenfoot.getRandomNumber (91) - 45);
         }
-    }
-    /*
-     * turns at edge
-     */
-    public void Turnatedge()
+        public void checkKeyDown()
     {
-        if(isAtEdge())
+               if (Greenfoot.isKeyDown("a"))
         {
-            turn(17);
+            turn (-8);            
+        } 
+        if (Greenfoot.isKeyDown("d"))
+        {
+            turn (8);
         }
     }
 } 
