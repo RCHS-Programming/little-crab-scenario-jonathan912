@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Thu Mar 18 08:00:26 EDT 2021
+#Mon Mar 22 08:01:18 EDT 2021
 target4.type=ClassTarget
 class.AntWorld.superclass=greenfoot.World
 dependency3.from=Lobster
@@ -15,7 +15,7 @@ target4.typeParameters=
 readme.width=47
 readme.editor.height=581
 class.TurtleWorld.superclass=greenfoot.World
-editor.fx.0.width=1456
+editor.fx.0.width=816
 target1.height=50
 class.Bullet.superclass=
 target3.typeParameters=
@@ -42,9 +42,9 @@ class.AntHill.superclass=greenfoot.Actor
 class.Asteroid.superclass=
 target1.width=80
 dependency2.to=Worm
-editor.fx.0.y=-8
+editor.fx.0.y=40
 target2.typeParameters=
-editor.fx.0.x=-8
+editor.fx.0.x=312
 class.CrabWorld.image=sand.jpg
 dependency3.to=Crab
 class.Lobster.superclass=greenfoot.Actor
@@ -94,7 +94,7 @@ mainWindow.x=-8
 dependency1.from=Crab
 target1.y=70
 target1.x=160
-editor.fx.0.height=876
+editor.fx.0.height=739
 target2.editor.width=818
 dependency1.type=UsesDependency
 target4.editor.y=58

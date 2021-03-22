@@ -14,7 +14,6 @@ public class Crab extends Actor
     public void move()
     {
           move(5);
-       
     } 
     /*
      * Check weather we have gazed upon a worm if we have munch on it if not do keep looking.
