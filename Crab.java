@@ -5,11 +5,15 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, and Greenfoot)
  */
 public class Crab extends Actor
 {
+    
+    private GreenfootImage image1;
+    private GreenfootImage image2;
+    private int Wormseaten;
     public void act()
     {
         move();
-        lookforWorm();
         checkKeyDown();
+        lookforWorm();
     }
     public void move()
     {
@@ -21,6 +25,7 @@ public class Crab extends Actor
     public void lookforWorm()
    
     {
+        Wormseaten = Wormseaten + 1; 
         if(isTouching(Worm.class));
         {
             removeTouching(Worm.class);
